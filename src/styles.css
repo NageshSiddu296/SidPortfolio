@@ -1,0 +1,101 @@
+.card {
+  background-color: rgb(2, 2, 27);
+  font-family: sans-serif;
+  text-align: center;
+  color: rgb(186, 188, 190);
+  padding: 30px;
+  padding-left: 120px;
+  padding-right: 120px;
+  text-align: start;
+  width: 100vw;
+}
+.image {
+  height: 200px;
+  border-radius: 50%;
+}
+.image-card {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.intro {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: rgb(5, 212, 212);
+}
+.about {
+  font-size: 18px;
+  color: rgb(4, 192, 192);
+  text-decoration: underline;
+}
+.paragraph {
+  font-size: 14px;
+  text-indent: 2em;
+  text-align: justify;
+  line-height: 1.6;
+}
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+}
+.no-bullets {
+  list-style: none;
+}
+.skill-list {
+  display: flex;
+  align-items: center;
+  font-size: 1.1em;
+  gap: 10px;
+}
+
+.images {
+  width: 300px;
+  height: cover;
+}
+.images:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.projects-card {
+  display: flex;
+  background-color: rgb(2, 2, 27);
+  font-family: sans-serif;
+  text-align: end;
+  color: rgb(186, 188, 190);
+  padding: 30px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-left: 60px;
+  justify-content: center;
+}
+.item-num {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.tech {
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+.git-btn {
+  font-size: 13px;
+  text-align: center;
+  color: black;
+  width: 90px;
+  border-radius: 22px;
+  font-weight: bold;
+  background-color: rgb(4, 192, 192);
+}
+.align-projects {
+  margin-left: 50px;
+}
