@@ -87,18 +87,22 @@ export default function Project() {
 
       <div className="projects-card">
         <div>
-          <a href="">
-            <img className="images" src="./images/Light-Dark.PNG" alt="" />
+          <a href="https://speechtotextwebsite.netlify.app/">
+            <img
+              className="images"
+              src="https://nordicapis.com/wp-content/uploads/5-Best-Speech-to-Text-APIs-2-e1615383933700.png"
+              alt=""
+            />
           </a>
         </div>
         <div className="description">
           <h2 className="item-num">#5</h2>
-          <h1 className="title">Light-Dark Mode</h1>
+          <h1 className="title">Speech To Text Converter</h1>
           <h className="tech">ReactJs, HTML, CSS</h>
           <br />
           <a
             className="git-btn"
-            href="https://github.com/NageshSiddu296/Lightmode-Darkmode"
+            href="https://github.com/NageshSiddu296/Speech-to-text-website.git"
           >
             GitHub Link
           </a>
@@ -159,6 +163,26 @@ export default function Project() {
           <a
             className="git-btn"
             href="https://github.com/NageshSiddu296/Counter"
+          >
+            GitHub Link
+          </a>
+        </div>
+      </div>
+
+      <div className="projects-card">
+        <div>
+          <a href="">
+            <img className="images" src="./images/Light-Dark.PNG" alt="" />
+          </a>
+        </div>
+        <div className="description">
+          <h2 className="item-num">#9</h2>
+          <h1 className="title">Light-Dark Mode</h1>
+          <h className="tech">ReactJs, HTML, CSS</h>
+          <br />
+          <a
+            className="git-btn"
+            href="https://github.com/NageshSiddu296/Lightmode-Darkmode"
           >
             GitHub Link
           </a>
